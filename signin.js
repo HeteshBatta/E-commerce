@@ -64,11 +64,11 @@ function oldUser()
 
 function checkforpassword(b,c)
 {
-  for( var a=0;a<=length;a++)
+  for( var a=0;a<length;a++)
   {
-    if(oldusers[a].name==b)
+    if(users[a].name==b)
     {
-      if(oldusers[a].pass!=c)
+      if(users[a].pass!=c)
       {
         flag=2;
         alert("Password not correct");
